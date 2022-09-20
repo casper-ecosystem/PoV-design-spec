@@ -72,6 +72,6 @@ Casper Association's PoV NFTs are immutable, meaning the metadata may not be alt
 BurnMode is set to `Burnable`, giving winners the ability to destroy their award if they so choose.
 
 ## Additional Notes
-* Casper's Proof-of-Victory NFTs act as any other CEP-78 NFT does. Holders have the right to do with them as they please.
+* Casper's Proof-of-Victory NFTs act as any other CEP-78 NFT does. Holders have the right to do with them as they please within the bounds of the selected modalities.
 
 
