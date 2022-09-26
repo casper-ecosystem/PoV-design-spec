@@ -10,32 +10,32 @@ Casper Association's Proof-of-Victory NFTs use the `CustomValidated` [NFTMetadat
     "participant": {
       "name": "participant",
       "description": "The full/preferred name of the participant.",
-      "required": true,
+      "required": true
     },
     "bounty": {
       "name": "bounty",
       "description": "The bounty completed to earn the award.",
-      "required": true,
+      "required": true
     },
     "project": {
       "name": "project",
       "description": "The name of the project submitted to win the award.",
-      "required": true,
+      "required": true
     },
     "place": {
       "name": "place",
       "description": "The rank of the award (e.g. \"3rd place\").",
-      "required": false,
+      "required": false
     },
     "tier": {
       "name": "tier",
       "description": "The tier of the bounty (e.g. \"Advanced\").",
-      "required": false,
+      "required": false
     },
     "image": {
       "name": "",
       "description": "The IPFS URI of the image associated with the NFT.",
-      "required": true,
+      "required": true
     },
     "event":{
       "name": "event_name",
@@ -45,12 +45,12 @@ Casper Association's Proof-of-Victory NFTs use the `CustomValidated` [NFTMetadat
         "details":{
           "name": "event_details",
           "description": "More details about the event or certificate (e.g. \"Hackathon organized by the Casper Association from … until … in partnership with …\").",
-          "required": false,
+          "required": false
         },
         "date":{
           "name": "event_date",
           "description": "When the event took place.", 
-          "required": false,
+          "required": false
         }
       }
     },
@@ -58,7 +58,7 @@ Casper Association's Proof-of-Victory NFTs use the `CustomValidated` [NFTMetadat
       "name": "certifier",
       "description": "Person or entity vouching for the validity of the award.",
       "required": false,
-    },
+    }
   }
 }
 ```
