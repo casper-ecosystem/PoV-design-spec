@@ -71,6 +71,7 @@ The CEP-78 Ownership mode is set to `Transferable`. This allows for NFTs to be t
 
 ### [NFTKind](https://github.com/casper-ecosystem/cep-78-enhanced-nft#nftkind)
 Casper's Proof-of-Victory NFTs are tokens that represent an award that may influence physical recognition. Because of this, Casper's PoV NFTs are of the `Virtual` NFTKind.
+
 *Note: An NFT's `NFTKind` does not alter any inherent functionality, it is used as a reference.*
 
 ### [NFTHolderMode](https://github.com/casper-ecosystem/cep-78-enhanced-nft#nftholdermode)
