@@ -49,7 +49,7 @@ Casper Association's Proof-of-Victory NFTs use the `CustomValidated` [NFTMetadat
         },
         "date": {
           "name": "event_date",
-          "description": "The date the event concluded in the format (DD/MM/YYYY)",
+          "description": "The date the event concluded in the format (DD-MM-YYYY)",
           "required": false
         }
       }
