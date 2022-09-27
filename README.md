@@ -37,19 +37,19 @@ Casper Association's Proof-of-Victory NFTs use the `CustomValidated` [NFTMetadat
       "description": "The IPFS URI of the image associated with the NFT.",
       "required": true
     },
-    "event":{
+    "event": {
       "name": "event_name",
       "description": "The name of the event (e.g. \"Ready Player Casper Hackathon\").",
       "required": false,
       "properties": {
-        "details":{
+        "details": {
           "name": "event_details",
           "description": "More details about the event or certificate (e.g. \"Hackathon organized by the Casper Association from … until … in partnership with …\").",
           "required": false
         },
-        "date":{
+        "date": {
           "name": "event_date",
-          "description": "When the event took place.", 
+          "description": "The date the event concluded in the format (DD/MM/YYYY)",
           "required": false
         }
       }
