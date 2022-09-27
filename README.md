@@ -86,7 +86,7 @@ The minting mode defines which entities have the right to mint a PoV NFT. For th
 ### [NFTMetadataKind](https://github.com/casper-ecosystem/cep-78-enhanced-nft#nftmetadatakind)
 As mentioned in the [first section](#Metadata), the NFTMetadataKind is set to `CustomValidated` and requires its own schema.
 
-### [NFTIdentifierMode](https://github.com/casper-ecosystem/cep-78-enhanced-nft#nftmetadatakind)
+### [NFTIdentifierMode](https://github.com/casper-ecosystem/cep-78-enhanced-nft#nftidentifiermode)
 The CEP-78 standard allows tokens to be identified either by its hash or by an ordinal, auto-incrementing value. In the case of PoV NFTs, tokens are identified by hash.
 
 ### [Metadata Mutability](https://github.com/casper-ecosystem/cep-78-enhanced-nft#metadata-mutability)
