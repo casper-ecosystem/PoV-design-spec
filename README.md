@@ -24,43 +24,37 @@ Casper Association's Proof-of-Victory NFTs use the `CustomValidated` [NFTMetadat
     },
     "place": {
       "name": "place",
-      "description": "The rank of the award (e.g. \"3rd place\").",
+      "description": "The rank of the award (e.g. '3rd place').",
       "required": false
     },
     "tier": {
       "name": "tier",
-      "description": "The tier of the bounty (e.g. \"Advanced\").",
+      "description": "The tier of the bounty (e.g. 'Advanced').",
       "required": false
     },
     "image": {
-      "name": "",
+      "name": "image",
       "description": "The IPFS URI of the image associated with the NFT.",
       "required": true
     },
-    "event": {
-      "name": "event_name",
-      "description": "The name of the event (e.g. \"Ready Player Casper Hackathon\").",
-      "required": false,
-      "properties": {
-        "details": {
-          "name": "event_details",
-          "description": "More details about the event or certificate (e.g. \"Hackathon organized by the Casper Association from … until … in partnership with …\").",
-          "required": false
-        },
-        "date": {
-          "name": "event_date",
-          "description": "The date the event concluded in the format (DD-MM-YYYY)",
-          "required": false
-        }
-      }
+    "event_details": {
+      "name": "event_details",
+      "description": "More details about the event or certificate (e.g. 'Hackathon organized by the Casper Association from ... until ... in partnership with ...').",
+      "required": false
+    },
+    "event_date": {
+      "name": "event_date",
+      "description": "The date the event concluded in the format (DD-MM-YYYY).",
+      "required": false
     },
     "certifier": {
       "name": "certifier",
       "description": "Person or entity vouching for the validity of the award.",
-      "required": false,
+      "required": false
     }
   }
 }
+
 ```
 
 ## Modalities
