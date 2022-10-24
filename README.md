@@ -1,6 +1,8 @@
 # Proof-of-Victory NFT Design Specification
 This document outlines the metadata schema and modality selections chosen when installing [CEP-78](https://github.com/casper-ecosystem/cep-78-enhanced-nft) Proof-of-Victory NFT contracts.
 
+Proof-of-Victory (PoV) NFTs are on-chain certificates that allow for physical recognition of an individual's acheivement. While PoV's were created by the Casper Association to recognize hackathon winners, they may be used by other organizations and/or other events.
+
 ## Metadata
 Casper Association's Proof-of-Victory NFTs use the `CustomValidated` [NFTMetadataKind](https://github.com/casper-ecosystem/cep-78-enhanced-nft#nftmetadatakind) which requires that an NFT's metadata conform to a specified JSON schema. The schema used for PoV NFTs is below.
 
